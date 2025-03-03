@@ -109,9 +109,55 @@
             <a href="#discover" class="btn btn-outline-light text-uppercase fw-bold" title="Discover">Discover</a>
           </div>
         </div>
+        <!-- The header carsoule -->
+        <div class="row">
+          <div class="col-12">
+            <div class="carousel slide" id="slider">
+              <!-- Indicarots -->
+              <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-slide-to="0" data-bs-target="#slider" title="slide 1"
+                  aria-current="true" aria-label="Slide 1">
+                </button>
+                <button type="button" data-bs-slide-to="1" data-bs-target="#slider" title="slide 2"
+                  aria-label="Slide 2">
+                </button>
+                <button type="button" data-bs-slide-to="2" data-bs-target="#slider" title="slide 3"
+                  aria-label="Slide 3">
+                </button>
+              </div>
+              <!-- Slide images -->
+              <div class="carousel-inner rounded-5">
+                <div class="carousel-item active">
+                  <img src="./images/header-slide-1.jpg" alt="Slide 1" title="Slide 1"
+                    class="d-block w-100 rounded-5" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/header-slide-2.jpg" alt="Slide 2" title="Slide 2"
+                    class="d-block w-100 rounded-5" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/header-slide-3.jpg" alt="Slide 3" title="Slide 3"
+                    class="d-block w-100 rounded-5" />
+                </div>
+              </div>
+              <!-- Buttons -->
+              <button type="button" class="carousel-control-prev" title="Previous" data-bs-target="#slider"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button type="button" class="carousel-control-next" title="Next" data-bs-target="#slider"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <!-- End of header -->
+    <!-- ================================================================ -->
   </body>
 
 </html>
