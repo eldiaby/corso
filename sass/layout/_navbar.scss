@@ -1,0 +1,9 @@
+.navbar {
+  @media only screen and (max-width: 992px) {
+    background-color: var(--bs-dark);
+  }
+
+  &__logo {
+    width: 150px;
+  }
+}

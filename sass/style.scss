@@ -1,3 +1,5 @@
+@use 'vendors/bootstrap';
+//
 @use 'abstracts/functions';
 @use 'abstracts/mixins';
 @use 'abstracts/variables';
@@ -8,9 +10,9 @@
 @use 'components/buttons';
 @use 'layout/header';
 @use 'layout/footer';
+@use 'layout/navbar';
 @use 'layout/sidebar';
 @use 'pages/home';
 @use 'pages/contact';
 @use 'utils/helpers';
-@use 'vendors/bootstrap';
 @use 'vendors/font-awesome';
